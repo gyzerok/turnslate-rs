@@ -1,0 +1,12 @@
+[package]
+name = "turnslate"
+version = "0.1.0"
+authors = ["Fedor Nezhivoi <gyzerok@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+serde = { version = "1.0.126", features = ["derive"] }
+fluent-syntax = "0.11.0"
